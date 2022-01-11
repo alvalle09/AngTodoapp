@@ -1,6 +1,9 @@
 
 .task {
     background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .task.reminder {
@@ -16,4 +19,9 @@
 i {
     color: red;
     text-shadow: 0 0 3px #000;
+}
+
+i:hover {
+    text-shadow: 0 0 8px #000;
+   
 }
