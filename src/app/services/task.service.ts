@@ -22,4 +22,9 @@ export class TaskService {
     return this.http.delete<Task>(url);
   }
 
+  toggleReminder(task: Task) {
+    task.reminder = !task.reminder;
+    console.log(task.reminder);
+  }
+
 }

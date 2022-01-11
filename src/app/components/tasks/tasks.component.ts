@@ -26,4 +26,8 @@ export class TasksComponent implements OnInit {
         () => (this.tasks = this.tasks.filter(t => t.id !== task.id)));
   } 
 
+  toggleReminder(task: Task) {
+    this.taskService.toggleReminder(task);
+  }
+
 }
