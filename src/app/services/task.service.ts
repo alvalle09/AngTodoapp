@@ -4,6 +4,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { TASKS } from '../mock-tasks';
 import { Task } from '../Task';
 
+const httpOptions = {
+  headers: new HttpHeaders({
+    'Content-type': 'application/json'
+
+  })
+
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -22,9 +30,10 @@ export class TaskService {
     return this.http.delete<Task>(url);
   }
 
-  toggleReminder(task: Task) {
-    task.reminder = !task.reminder;
-    console.log(task.reminder);
+  updateTaskReminder(task: Task): Observable<Task> {
+    const url = `${this.apiUrl}/${task.id}`;
+    return this.http.put<Task>(url, task, httpOptions);
+
   }
 
 }
