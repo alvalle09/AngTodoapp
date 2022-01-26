@@ -7,9 +7,7 @@ import { Task } from '../Task';
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-type': 'application/json'
-
   })
-
 }
 
 @Injectable({
