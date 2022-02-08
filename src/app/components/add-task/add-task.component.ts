@@ -10,10 +10,28 @@ export class AddTaskComponent implements OnInit {
   day: string;
   reminder: boolean = false;
 
-
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onSubmit() {
+    if (!this.text) {
+      alert('Please add a task name.');
+      return;
+    }
+
+    const newTask = {
+      text: this.text,
+      day: this.day, 
+      reminder: this.reminder
+    }
+
+    // @todo - emit event
+
+    // reset form vars
+    this.text = '';
+    this.day = '';
+    this.reminder = false;
+  }
 }

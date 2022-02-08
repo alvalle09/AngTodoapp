@@ -2,7 +2,7 @@
   "tasks": [
     {
       "id": 3,
-      "text": "Groceries",
+      "text": "Groceries 🍴",
       "day": "May 6th, 2:30pm",
       "reminder": true
     },
@@ -14,7 +14,7 @@
     },
     {
       "id": 5,
-      "text": "Lunch Meeting",
+      "text": "Lunch Meeting 🕛",
       "day": "May 7th, 12:30pm",
       "reminder": true
     }
