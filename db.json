@@ -4,25 +4,31 @@
       "id": 3,
       "text": "Groceries 🍴",
       "day": "May 6th, 2:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 4,
       "text": "School Meeting 🏫",
       "day": "May 7th, 2:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 5,
       "text": "Lunch Meeting 🕛",
       "day": "May 7th, 12:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "text": "asdfadsfa",
       "day": "asdfadsf",
       "reminder": false,
       "id": 7
+    },
+    {
+      "text": "AdvdcsdfxccZXC",
+      "day": "XZCXZcZXC",
+      "reminder": true,
+      "id": 8
     }
   ]
 }
