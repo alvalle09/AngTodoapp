@@ -4,13 +4,13 @@
       "id": 3,
       "text": "Groceries 🍴",
       "day": "May 6th, 2:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "School Meeting 🏫",
       "day": "May 7th, 2:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
@@ -29,6 +29,12 @@
       "day": "XZCXZcZXC",
       "reminder": true,
       "id": 8
+    },
+    {
+      "text": "A",
+      "day": "g",
+      "reminder": true,
+      "id": 9
     }
   ]
 }
