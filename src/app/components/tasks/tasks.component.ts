@@ -11,7 +11,6 @@ import { TaskService } from '../../services/task.service';
 export class TasksComponent implements OnInit {
   tasks: Task[] = [];
 
-  
   constructor(private taskService: TaskService) { }
 
   ngOnInit(): void {
@@ -37,7 +36,8 @@ export class TasksComponent implements OnInit {
 
   addTask(task: Task) {
     //console.log(task);
-    this.taskService.addTask(task).subscribe((task) => (this.tasks.push(task)));
+    this.taskService.addTask(task).subscribe((task) => 
+      (this.tasks.push(task)));
   }
 
 }

@@ -21,7 +21,7 @@
     {
       "text": "asdfadsfa",
       "day": "asdfadsf",
-      "reminder": false,
+      "reminder": true,
       "id": 7
     },
     {
@@ -32,8 +32,8 @@
     },
     {
       "text": "A",
-      "day": "g",
-      "reminder": true,
+      "day": "",
+      "reminder": false,
       "id": 9
     }
   ]
