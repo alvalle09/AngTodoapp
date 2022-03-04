@@ -17,24 +17,6 @@
       "text": "Lunch Meeting 🕛",
       "day": "May 7th, 12:30pm",
       "reminder": false
-    },
-    {
-      "text": "asdfadsfa",
-      "day": "asdfadsf",
-      "reminder": true,
-      "id": 7
-    },
-    {
-      "text": "AdvdcsdfxccZXC",
-      "day": "XZCXZcZXC",
-      "reminder": true,
-      "id": 8
-    },
-    {
-      "text": "A",
-      "day": "",
-      "reminder": false,
-      "id": 9
     }
   ]
 }
