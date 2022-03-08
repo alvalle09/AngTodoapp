@@ -10,18 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   showAddTask: boolean;
-  showAboutLink: boolean;
-
   subscription: Subscription;
-  subjAbout: Subscription;
-
-  constructor(private uiService: UiService,
-              private router: Router) { 
-    this.subscription = this.uiService
-      .onToggle()
-      .subscribe((value) => (this.showAddTask = value));
-
-  }
+  
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
   }
